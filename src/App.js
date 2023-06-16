@@ -62,7 +62,7 @@ const checkwinner=()=> {
      <div className="row jc-center">
      <SquareComponent className="b-right" state={gameState[6]} onClick={() => onSquareClick(6)}/>
      <SquareComponent className="b-right" state={gameState[7]} onClick={() => onSquareClick(7)}/>
-     <SquareComponent state={gameState[4]} onClick={() => onSquareClick(8)}/>
+     <SquareComponent state={gameState[8]} onClick={() => onSquareClick(8)}/>
      </div>
      <br></br>
      <button className="clear-button" onClick={()=>setgameState(initialState)}>Clear Game</button>
